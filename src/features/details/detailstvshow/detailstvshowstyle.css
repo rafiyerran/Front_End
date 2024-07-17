@@ -1,0 +1,93 @@
+/* Background overlay */
+.behind-background-tvshows {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+/* Invisible button to close the details view */
+.details-background-tvshows {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(19, 17, 17, 0.623);
+    opacity: 0.4;
+}
+
+/* Backdrop image */
+.image-background-tvshows {
+    position: relative;
+    background: white;
+    padding: 20px; /* Added padding for space between inner content and backdrop */
+    border-radius: 8px;
+    z-index: 50;
+    background-size: contain;
+    background-position: center;
+    width: 80%;
+    height: 80%;
+}
+
+/* Details information section */
+.details-info-tvshows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.795);
+    padding: 20px; /* Added padding inside the inner content */
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Title of the TV show */
+.title-movie-tvshows {
+    font-size: 2em; /* Increased font size */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Overview text */
+.overview-tvshows {
+    font-size: 1.2em; /* Increased font size */
+    margin: 10px 0;
+    line-height: 1.6; /* Adjusted line height for better readability */
+    text-align: justify;
+}
+
+/* Popularity text */
+.popularity-tvshows {
+    font-size: 1.2em; /* Increased font size */
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Close button */
+.close-button-tvshows {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.2em; /* Increased font size */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.close-button-tvshows:hover {
+    background-color: darkred;
+}
+
+/* Poster image */
+.poster {
+    max-width: 220px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
